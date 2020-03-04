@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="view-service-feign" />
+        <module name="view-service-ribbon" />
         <module name="eureka-service" />
         <module name="data-service" />
       </profile>
@@ -15,6 +17,8 @@
       <module name="eureka-service" target="1.8" />
       <module name="springcloud-learn-how2j" target="1.8" />
       <module name="springcloud-learn-how2j-test" target="1.8" />
+      <module name="view-service-feign" target="1.8" />
+      <module name="view-service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +27,8 @@
       <module name="eureka-service" options="-parameters" />
       <module name="springcloud-learn-how2j" options="-parameters" />
       <module name="springcloud-learn-how2j-test" options="-parameters" />
+      <module name="view-service-feign" options="-parameters" />
+      <module name="view-service-ribbon" options="-parameters" />
     </option>
   </component>
 </project>

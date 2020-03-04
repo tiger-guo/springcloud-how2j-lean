@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb54aabb-48d1-4107-b6d1-16692e0c34ae" name="Default Changelist" comment="" />
+    <list default="true" id="eb54aabb-48d1-4107-b6d1-16692e0c34ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view-service-ribbon/view-service-ribbon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/data-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/data-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/eureka-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-learn-how2j.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-learn-how2j.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +29,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -32,25 +52,36 @@
     </option>
   </component>
   <component name="ProjectId" id="1YPmdMJZZ0MZTB2wkgDrY7zhmSf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DataServiceApplication">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.how2j" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductViewServiceFeignApplication">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.how2j.springcloud.EurekaServerApplication" />
       <module name="eureka-service" />
@@ -77,8 +108,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductViewServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="view-service-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.how2j.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.how2j.springcloud.ProductViewServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductViewServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="view-service-ribbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.how2j.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.how2j.springcloud.ProductViewServiceRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
+        <item itemvalue="Spring Boot.ProductViewServiceRibbonApplication" />
         <item itemvalue="Spring Boot.DataServiceApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
       </list>
@@ -99,6 +158,7 @@
       <workItem from="1583125034163" duration="682000" />
       <workItem from="1583130956599" duration="823000" />
       <workItem from="1583197175240" duration="4160000" />
+      <workItem from="1583283514972" duration="5388000" />
     </task>
     <servers />
   </component>
@@ -114,49 +174,65 @@
       <screen x="62" y="0" width="1218" height="720" />
     </state>
     <state x="394" y="163" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1218.720@62.0.1218.720" timestamp="1583197416289" />
+    <state x="477" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1583285272809">
+      <screen x="62" y="0" width="1218" height="720" />
+    </state>
+    <state x="477" y="77" key="#com.intellij.ide.util.MemberChooser/62.0.1218.720@62.0.1218.720" timestamp="1583285272809" />
+    <state x="239" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583285410244">
+      <screen x="62" y="0" width="1218" height="720" />
+    </state>
+    <state x="239" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/62.0.1218.720@62.0.1218.720" timestamp="1583285410244" />
+    <state x="438" y="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1583285406648">
+      <screen x="62" y="0" width="1218" height="720" />
+    </state>
+    <state x="438" y="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/62.0.1218.720@62.0.1218.720" timestamp="1583285406648" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1582854411104">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/62.0.1218.720@62.0.1218.720" timestamp="1582854411104" />
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1583201342713">
+    <state width="1175" height="278" key="GridCell.Tab.0.bottom" timestamp="1583289156829">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom/62.0.1218.720@62.0.1218.720" timestamp="1583201342713" />
-    <state width="1175" height="176" key="GridCell.Tab.0.center" timestamp="1583201342713">
+    <state width="1175" height="278" key="GridCell.Tab.0.bottom/62.0.1218.720@62.0.1218.720" timestamp="1583289156829" />
+    <state width="1175" height="278" key="GridCell.Tab.0.center" timestamp="1583289156829">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.center/62.0.1218.720@62.0.1218.720" timestamp="1583201342713" />
-    <state width="1175" height="176" key="GridCell.Tab.0.left" timestamp="1583201342713">
+    <state width="1175" height="278" key="GridCell.Tab.0.center/62.0.1218.720@62.0.1218.720" timestamp="1583289156829" />
+    <state width="1175" height="278" key="GridCell.Tab.0.left" timestamp="1583289156829">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.left/62.0.1218.720@62.0.1218.720" timestamp="1583201342713" />
-    <state width="1175" height="176" key="GridCell.Tab.0.right" timestamp="1583201342713">
+    <state width="1175" height="278" key="GridCell.Tab.0.left/62.0.1218.720@62.0.1218.720" timestamp="1583289156829" />
+    <state width="1175" height="278" key="GridCell.Tab.0.right" timestamp="1583289156829">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.right/62.0.1218.720@62.0.1218.720" timestamp="1583201342713" />
-    <state width="1175" height="176" key="GridCell.Tab.1.bottom" timestamp="1583201342714">
+    <state width="1175" height="278" key="GridCell.Tab.0.right/62.0.1218.720@62.0.1218.720" timestamp="1583289156829" />
+    <state width="1175" height="278" key="GridCell.Tab.1.bottom" timestamp="1583288076315">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.1.bottom/62.0.1218.720@62.0.1218.720" timestamp="1583201342714" />
-    <state width="1175" height="176" key="GridCell.Tab.1.center" timestamp="1583201342714">
+    <state width="1175" height="278" key="GridCell.Tab.1.bottom/62.0.1218.720@62.0.1218.720" timestamp="1583288076315" />
+    <state width="1175" height="278" key="GridCell.Tab.1.center" timestamp="1583288076315">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.1.center/62.0.1218.720@62.0.1218.720" timestamp="1583201342714" />
-    <state width="1175" height="176" key="GridCell.Tab.1.left" timestamp="1583201342713">
+    <state width="1175" height="278" key="GridCell.Tab.1.center/62.0.1218.720@62.0.1218.720" timestamp="1583288076315" />
+    <state width="1175" height="278" key="GridCell.Tab.1.left" timestamp="1583288076315">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.1.left/62.0.1218.720@62.0.1218.720" timestamp="1583201342713" />
-    <state width="1175" height="176" key="GridCell.Tab.1.right" timestamp="1583201342714">
+    <state width="1175" height="278" key="GridCell.Tab.1.left/62.0.1218.720@62.0.1218.720" timestamp="1583288076315" />
+    <state width="1175" height="278" key="GridCell.Tab.1.right" timestamp="1583288076315">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.1.right/62.0.1218.720@62.0.1218.720" timestamp="1583201342714" />
-    <state x="29" y="80" key="new project wizard" timestamp="1583197871979">
+    <state width="1175" height="278" key="GridCell.Tab.1.right/62.0.1218.720@62.0.1218.720" timestamp="1583288076315" />
+    <state x="173" y="3" key="SettingsEditor" timestamp="1583284078709">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state x="29" y="80" key="new project wizard/62.0.1218.720@62.0.1218.720" timestamp="1583197871979" />
-    <state x="334" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1582855963129">
+    <state x="173" y="3" key="SettingsEditor/62.0.1218.720@62.0.1218.720" timestamp="1583284078709" />
+    <state x="56" y="55" key="new project wizard" timestamp="1583288075847">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state x="334" y="41" width="672" height="678" key="search.everywhere.popup/62.0.1218.720@62.0.1218.720" timestamp="1582855963129" />
+    <state x="56" y="55" key="new project wizard/62.0.1218.720@62.0.1218.720" timestamp="1583288075847" />
+    <state x="334" y="41" width="670" height="58" key="search.everywhere.popup" timestamp="1583285176632">
+      <screen x="62" y="0" width="1218" height="720" />
+    </state>
+    <state x="334" y="41" width="670" height="58" key="search.everywhere.popup/62.0.1218.720@62.0.1218.720" timestamp="1583285176632" />
   </component>
 </project>
