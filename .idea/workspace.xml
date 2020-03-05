@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb54aabb-48d1-4107-b6d1-16692e0c34ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/data-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/data-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/src/main/java/com/how2j/springcloud/DataServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/java/com/how2j/springcloud/DataServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-service/target/classes/com/how2j/springcloud/DataServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-service/target/classes/com/how2j/springcloud/DataServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view-service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-service-feign/src/main/java/com/how2j/springcloud/ProductViewServiceFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-feign/src/main/java/com/how2j/springcloud/ProductViewServiceFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-service-feign/src/main/java/com/how2j/springcloud/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-feign/src/main/java/com/how2j/springcloud/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view-service-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-service-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-feign/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-service-feign/target/classes/com/how2j/springcloud/ProductViewServiceFeignApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-feign/target/classes/com/how2j/springcloud/ProductViewServiceFeignApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view-service-feign/view-service-feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-feign/view-service-feign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-service-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-service-ribbon/src/main/java/com/how2j/springcloud/ProductViewServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-ribbon/src/main/java/com/how2j/springcloud/ProductViewServiceRibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-service-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-service-ribbon/view-service-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-ribbon/view-service-ribbon.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +74,7 @@
       <recent name="D:\liuguohu\Code\springcloud-learn-how2j\zipkin-service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.ProductViewServiceFeignApplication">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.how2j.springcloud.EurekaServerApplication" />
       <module name="eureka-service" />
@@ -158,10 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
         <item itemvalue="Spring Boot.DataServiceApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Spring Boot.ProductViewServiceRibbonApplication" />
       </list>
     </recent_temporary>
@@ -186,7 +170,7 @@
       <workItem from="1583309544142" duration="207000" />
       <workItem from="1583309868091" duration="135000" />
       <workItem from="1583311829585" duration="610000" />
-      <workItem from="1583386301040" duration="3123000" />
+      <workItem from="1583386301040" duration="4033000" />
     </task>
     <servers />
   </component>
@@ -229,49 +213,53 @@
       <screen x="62" y="0" width="1218" height="720" />
     </state>
     <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389087001" />
+    <state x="155" y="93" width="1033" height="535" key="DiffContextDialog" timestamp="1583390036298">
+      <screen x="62" y="0" width="1218" height="720" />
+    </state>
+    <state x="155" y="93" width="1033" height="535" key="DiffContextDialog/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390036298" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1582854411104">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/62.0.1218.720@62.0.1218.720" timestamp="1582854411104" />
-    <state width="1175" height="149" key="GridCell.Tab.0.bottom" timestamp="1583389593051">
+    <state width="1175" height="268" key="GridCell.Tab.0.bottom" timestamp="1583390511897">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="149" key="GridCell.Tab.0.bottom/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389593051" />
+    <state width="1175" height="268" key="GridCell.Tab.0.bottom/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390511897" />
     <state width="1175" height="278" key="GridCell.Tab.0.bottom/62.0.1218.720@62.0.1218.720" timestamp="1583289380867" />
-    <state width="1175" height="149" key="GridCell.Tab.0.center" timestamp="1583389593050">
+    <state width="1175" height="268" key="GridCell.Tab.0.center" timestamp="1583390511897">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="149" key="GridCell.Tab.0.center/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389593050" />
+    <state width="1175" height="268" key="GridCell.Tab.0.center/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390511897" />
     <state width="1175" height="278" key="GridCell.Tab.0.center/62.0.1218.720@62.0.1218.720" timestamp="1583289380866" />
-    <state width="1175" height="149" key="GridCell.Tab.0.left" timestamp="1583389593050">
+    <state width="1175" height="268" key="GridCell.Tab.0.left" timestamp="1583390511896">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="149" key="GridCell.Tab.0.left/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389593050" />
+    <state width="1175" height="268" key="GridCell.Tab.0.left/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390511896" />
     <state width="1175" height="278" key="GridCell.Tab.0.left/62.0.1218.720@62.0.1218.720" timestamp="1583289380866" />
-    <state width="1175" height="149" key="GridCell.Tab.0.right" timestamp="1583389593051">
+    <state width="1175" height="268" key="GridCell.Tab.0.right" timestamp="1583390511897">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="149" key="GridCell.Tab.0.right/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389593051" />
+    <state width="1175" height="268" key="GridCell.Tab.0.right/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390511897" />
     <state width="1175" height="278" key="GridCell.Tab.0.right/62.0.1218.720@62.0.1218.720" timestamp="1583289380867" />
-    <state width="1175" height="278" key="GridCell.Tab.1.bottom" timestamp="1583389593046">
+    <state width="1175" height="268" key="GridCell.Tab.1.bottom" timestamp="1583390511898">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="278" key="GridCell.Tab.1.bottom/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389593046" />
+    <state width="1175" height="268" key="GridCell.Tab.1.bottom/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390511898" />
     <state width="1175" height="278" key="GridCell.Tab.1.bottom/62.0.1218.720@62.0.1218.720" timestamp="1583289380867" />
-    <state width="1175" height="278" key="GridCell.Tab.1.center" timestamp="1583389593045">
+    <state width="1175" height="268" key="GridCell.Tab.1.center" timestamp="1583390511898">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="278" key="GridCell.Tab.1.center/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389593045" />
+    <state width="1175" height="268" key="GridCell.Tab.1.center/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390511898" />
     <state width="1175" height="278" key="GridCell.Tab.1.center/62.0.1218.720@62.0.1218.720" timestamp="1583289380867" />
-    <state width="1175" height="278" key="GridCell.Tab.1.left" timestamp="1583389593045">
+    <state width="1175" height="268" key="GridCell.Tab.1.left" timestamp="1583390511898">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="278" key="GridCell.Tab.1.left/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389593045" />
+    <state width="1175" height="268" key="GridCell.Tab.1.left/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390511898" />
     <state width="1175" height="278" key="GridCell.Tab.1.left/62.0.1218.720@62.0.1218.720" timestamp="1583289380867" />
-    <state width="1175" height="278" key="GridCell.Tab.1.right" timestamp="1583389593046">
+    <state width="1175" height="268" key="GridCell.Tab.1.right" timestamp="1583390511898">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="278" key="GridCell.Tab.1.right/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583389593046" />
+    <state width="1175" height="268" key="GridCell.Tab.1.right/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583390511898" />
     <state width="1175" height="278" key="GridCell.Tab.1.right/62.0.1218.720@62.0.1218.720" timestamp="1583289380867" />
     <state x="173" y="0" key="SettingsEditor" timestamp="1583388135500">
       <screen x="62" y="0" width="1218" height="720" />
