@@ -1,6 +1,7 @@
 package com.how2j.springcloud;
 
 
+import brave.sampler.Sampler;
 import cn.hutool.core.convert.Convert;
 import cn.hutool.core.thread.ThreadUtil;
 import cn.hutool.core.util.NetUtil;
@@ -64,4 +65,8 @@ public class ProductViewServiceRibbonApplication {
         return new RestTemplate();
     }
 
+    @Bean
+    public Sampler defaultSampler() {
+        return Sampler.ALWAYS_SAMPLE;
+    }
 }
