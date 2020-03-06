@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/view-service-feign/view-service-feign.iml" filepath="$PROJECT_DIR$/view-service-feign/view-service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/view-service-ribbon/view-service-ribbon.iml" filepath="$PROJECT_DIR$/view-service-ribbon/view-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>

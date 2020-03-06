@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data-service" />
+        <module name="zuul" />
         <module name="config-server" />
         <module name="turbine" />
         <module name="view-service-ribbon" />
@@ -25,6 +26,7 @@
       <module name="turbine" target="1.8" />
       <module name="view-service-feign" target="1.8" />
       <module name="view-service-ribbon" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,6 +40,7 @@
       <module name="turbine" options="-parameters" />
       <module name="view-service-feign" options="-parameters" />
       <module name="view-service-ribbon" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

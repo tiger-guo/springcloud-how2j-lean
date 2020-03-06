@@ -6,9 +6,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-service-feign/src/main/java/com/how2j/springcloud/util/AccessViewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/view-service-feign/src/main/java/com/how2j/springcloud/util/AccessViewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbine/turbine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/turbine.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -76,7 +76,7 @@
       <recent name="D:\liuguohu\Code\springcloud-learn-how2j\zipkin-service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductViewServiceFeignApplication">
+  <component name="RunManager" selected="Spring Boot.ProductServiceZuulApplication">
     <configuration name="AccessViewService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.how2j.springcloud.util.AccessViewService" />
       <module name="view-service-feign" />
@@ -86,19 +86,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="data-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.how2j.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.how2j.springcloud.DataServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.how2j.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.how2j.springcloud.ProductServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductViewServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="view-service-feign" />
       <extension name="coverage">
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ProductServiceZuulApplication" />
         <item itemvalue="Spring Boot.ProductViewServiceFeignApplication" />
         <item itemvalue="Application.AccessViewService" />
         <item itemvalue="Spring Boot.ProductServiceTurbineApplication" />
         <item itemvalue="Spring Boot.ProductServiceHystrixDashboardApplication" />
-        <item itemvalue="Spring Boot.DataServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +174,7 @@
       <workItem from="1583311829585" duration="610000" />
       <workItem from="1583386301040" duration="4033000" />
       <workItem from="1583391214174" duration="10000" />
-      <workItem from="1583454436470" duration="4615000" />
+      <workItem from="1583454436470" duration="5494000" />
     </task>
     <servers />
   </component>
@@ -228,25 +228,25 @@
       <screen x="62" y="0" width="1218" height="720" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/62.0.1218.720@62.0.1218.720" timestamp="1582854411104" />
-    <state width="1175" height="265" key="GridCell.Tab.0.bottom" timestamp="1583459334270">
+    <state width="1175" height="265" key="GridCell.Tab.0.bottom" timestamp="1583460073972">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="265" key="GridCell.Tab.0.bottom/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583459334270" />
+    <state width="1175" height="265" key="GridCell.Tab.0.bottom/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583460073972" />
     <state width="1175" height="278" key="GridCell.Tab.0.bottom/62.0.1218.720@62.0.1218.720" timestamp="1583289380867" />
-    <state width="1175" height="265" key="GridCell.Tab.0.center" timestamp="1583459334270">
+    <state width="1175" height="265" key="GridCell.Tab.0.center" timestamp="1583460073972">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="265" key="GridCell.Tab.0.center/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583459334270" />
+    <state width="1175" height="265" key="GridCell.Tab.0.center/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583460073972" />
     <state width="1175" height="278" key="GridCell.Tab.0.center/62.0.1218.720@62.0.1218.720" timestamp="1583289380866" />
-    <state width="1175" height="265" key="GridCell.Tab.0.left" timestamp="1583459334270">
+    <state width="1175" height="265" key="GridCell.Tab.0.left" timestamp="1583460073972">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="265" key="GridCell.Tab.0.left/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583459334270" />
+    <state width="1175" height="265" key="GridCell.Tab.0.left/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583460073972" />
     <state width="1175" height="278" key="GridCell.Tab.0.left/62.0.1218.720@62.0.1218.720" timestamp="1583289380866" />
-    <state width="1175" height="265" key="GridCell.Tab.0.right" timestamp="1583459334270">
+    <state width="1175" height="265" key="GridCell.Tab.0.right" timestamp="1583460073972">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="265" key="GridCell.Tab.0.right/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583459334270" />
+    <state width="1175" height="265" key="GridCell.Tab.0.right/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583460073972" />
     <state width="1175" height="278" key="GridCell.Tab.0.right/62.0.1218.720@62.0.1218.720" timestamp="1583289380867" />
     <state width="1175" height="265" key="GridCell.Tab.1.bottom" timestamp="1583459334271">
       <screen x="62" y="0" width="1218" height="720" />
@@ -273,10 +273,10 @@
     </state>
     <state x="173" y="0" key="SettingsEditor/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583388135500" />
     <state x="173" y="3" key="SettingsEditor/62.0.1218.720@62.0.1218.720" timestamp="1583284078709" />
-    <state x="56" y="55" key="new project wizard" timestamp="1583458583969">
+    <state x="56" y="55" key="new project wizard" timestamp="1583459825813">
       <screen x="62" y="0" width="1218" height="720" />
     </state>
-    <state x="56" y="55" key="new project wizard/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583458583969" />
+    <state x="56" y="55" key="new project wizard/62.0.1218.720/1920.0.1536.824@62.0.1218.720" timestamp="1583459825813" />
     <state x="56" y="55" key="new project wizard/62.0.1218.720@62.0.1218.720" timestamp="1583288075847" />
     <state x="334" y="41" width="670" height="58" key="search.everywhere.popup" timestamp="1583285176632">
       <screen x="62" y="0" width="1218" height="720" />
